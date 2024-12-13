@@ -1,4 +1,5 @@
 <img src="src/assets/img/icon.png" width="64"/>
+
 ## Installing and Running
 
 ### Procedures:
@@ -11,7 +12,7 @@
 6. Run `npm start`
 
    ![1、选择加载已解压的扩展程序安装](src/assets/img/install.png)
-   ![2、拖放zip文件安装](src/assets/img/install-drop.png)
+   拖放zip文件安装
 7. Load your extension on Chrome following:
    1. Access `chrome://extensions/`
    2. Check `Developer mode`
