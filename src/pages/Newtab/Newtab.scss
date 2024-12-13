@@ -1,0 +1,36 @@
+$myColor: orange;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $myColor;
+}
+
+.new-tab {
+  &__address-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+
+    &--card {
+      display: flex;
+      justify-items: center;
+      align-items: center;
+      background-color: rgb(225, 225, 243);
+      padding: 12px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 8px;
+
+      img {
+        height: 16px;
+        width: 16px;
+        margin-right: 8px;
+      }
+    }
+  }
+}
