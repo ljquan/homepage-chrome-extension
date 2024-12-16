@@ -11,6 +11,7 @@ var ReactRefreshTypeScript = require('react-refresh-typescript');
 const MonacoWebpackPlugin = require('monaco-editor-webpack-plugin');
 
 
+
 const ASSET_PATH = process.env.ASSET_PATH || '/';
 
 var alias = {};
@@ -71,6 +72,7 @@ var options = {
             loader: 'sass-loader',
             options: {
               sourceMap: true,
+              api: "modern"
             },
           },
         ],

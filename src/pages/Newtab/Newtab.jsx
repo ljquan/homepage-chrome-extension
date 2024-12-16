@@ -204,7 +204,7 @@ const Newtab = () => {
 
 
   return (
-    <Layout className="new-tab" style={{ padding: 24, height: '100vh' }}>
+    <div className="new-tab" style={{ padding: 24, height: '100vh' }}>
       <div>
         <Input placeholder="请输入关键词或拼音首字母搜索，数字跳转对应页面" size='large' value={searchText} onChange={handleSearch} clearable autofocus />
       </div>
@@ -218,7 +218,7 @@ const Newtab = () => {
         </div>
 
       </Content>
-    </Layout>
+    </div>
   );
 };
 
